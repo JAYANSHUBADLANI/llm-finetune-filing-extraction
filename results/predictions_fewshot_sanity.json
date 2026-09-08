@@ -1,0 +1,62 @@
+[
+  {
+    "label": "fewshot_sanity",
+    "doc_id": "0000012927_0000012927-20-000014",
+    "company": "The Boeing Company",
+    "field": "revenue",
+    "true_value": 76559000000.0,
+    "unit": "USD",
+    "raw_output": "76012700000.0",
+    "predicted": 76012700000.0,
+    "correct": false,
+    "seconds": 1.754472255706787
+  },
+  {
+    "label": "fewshot_sanity",
+    "doc_id": "0000012927_0000012927-20-000014",
+    "company": "The Boeing Company",
+    "field": "operating_income",
+    "true_value": -1975000000.0,
+    "unit": "USD",
+    "raw_output": "-1,975",
+    "predicted": -1975.0,
+    "correct": false,
+    "seconds": 1.5282528400421143
+  },
+  {
+    "label": "fewshot_sanity",
+    "doc_id": "0000012927_0000012927-20-000014",
+    "company": "The Boeing Company",
+    "field": "net_income",
+    "true_value": -636000000.0,
+    "unit": "USD",
+    "raw_output": "-636",
+    "predicted": -636.0,
+    "correct": false,
+    "seconds": 1.5004069805145264
+  },
+  {
+    "label": "fewshot_sanity",
+    "doc_id": "0000012927_0000012927-20-000014",
+    "company": "The Boeing Company",
+    "field": "eps_diluted",
+    "true_value": -1.12,
+    "unit": "USD/shares",
+    "raw_output": "13.85",
+    "predicted": 13.85,
+    "correct": false,
+    "seconds": 1.5226690769195557
+  },
+  {
+    "label": "fewshot_sanity",
+    "doc_id": "0000012927_0000012927-20-000014",
+    "company": "The Boeing Company",
+    "field": "total_assets",
+    "true_value": 133625000000.0,
+    "unit": "USD",
+    "raw_output": "83,740,000,000.0",
+    "predicted": 83740000000.0,
+    "correct": false,
+    "seconds": 1.6361558437347412
+  }
+]

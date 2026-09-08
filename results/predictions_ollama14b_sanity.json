@@ -1,0 +1,38 @@
+[
+  {
+    "label": "ollama14b_sanity",
+    "doc_id": "0000012927_0000012927-20-000014",
+    "company": "The Boeing Company",
+    "field": "revenue",
+    "true_value": 76559000000.0,
+    "unit": "USD",
+    "raw_output": "76559000000",
+    "predicted": 76559000000.0,
+    "correct": true,
+    "seconds": 24.86088800430298
+  },
+  {
+    "label": "ollama14b_sanity",
+    "doc_id": "0000012927_0000012927-20-000014",
+    "company": "The Boeing Company",
+    "field": "operating_income",
+    "true_value": -1975000000.0,
+    "unit": "USD",
+    "raw_output": "19637000000",
+    "predicted": 19637000000.0,
+    "correct": false,
+    "seconds": 2.928896188735962
+  },
+  {
+    "label": "ollama14b_sanity",
+    "doc_id": "0000012927_0000012927-20-000014",
+    "company": "The Boeing Company",
+    "field": "net_income",
+    "true_value": -636000000.0,
+    "unit": "USD",
+    "raw_output": "-636000000",
+    "predicted": -636000000.0,
+    "correct": true,
+    "seconds": 3.03824782371521
+  }
+]
