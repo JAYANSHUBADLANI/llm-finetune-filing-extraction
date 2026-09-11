@@ -1,6 +1,8 @@
 <!-- Title -->
 # LLM Fine-Tuning: Financial Statement Extraction
 
+[![tests](https://github.com/JAYANSHUBADLANI/llm-finetune-filing-extraction/actions/workflows/tests.yml/badge.svg)](https://github.com/JAYANSHUBADLANI/llm-finetune-filing-extraction/actions/workflows/tests.yml)
+
 Does LoRA fine-tuning a small, local, 3B parameter model beat the free
 alternative, a handful of examples put straight in the prompt, at
 extracting numbers from financial statements? And does either one close
