@@ -1,0 +1,2426 @@
+{
+ "doc_id": "0000012927_0000012927-20-000014",
+ "tables": [
+  {
+   "index": 56,
+   "statement": "balance_sheet",
+   "scale_phrase": null,
+   "rows": [
+    [
+     "",
+     "Excludes income tax matters. As of December 31, 2019 , our net liability for income taxes payable, including uncertain tax positions of $1,409 million , was $1,262 million . Aside from $670 million of income taxes payable expected to be paid in 2020, we are not able to reasonably estimate the timing of future cash flows related to the remaining net liability for income taxes payable. For further discussion of income taxes, see Note 5 to our Consolidated Financial Statements."
+    ]
+   ]
+  },
+  {
+   "index": 57,
+   "statement": "balance_sheet",
+   "scale_phrase": null,
+   "rows": [
+    [
+     "",
+     "We plan to acquire an 80% ownership stake in a joint venture comprised of the commercial aircraft and services operations of Embraer. For additional information, see Note 2 to our Consolidated Financial Statements."
+    ]
+   ]
+  },
+  {
+   "index": 65,
+   "statement": "income_statement",
+   "scale_phrase": "Dollars in millions",
+   "rows": [
+    [
+     "(Dollars in millions, except per share data)",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "Years ended December 31,",
+     "2019",
+     "",
+     "",
+     "2018",
+     "",
+     "",
+     "2017",
+     ""
+    ],
+    [
+     "Sales of products",
+     "",
+     "$66,094",
+     "",
+     "",
+     "",
+     "$90,229",
+     "",
+     "",
+     "",
+     "$83,740",
+     ""
+    ],
+    [
+     "Sales of services",
+     "10,465",
+     "",
+     "",
+     "10,898",
+     "",
+     "",
+     "10,265",
+     ""
+    ],
+    [
+     "Total revenues",
+     "76,559",
+     "",
+     "",
+     "101,127",
+     "",
+     "",
+     "94,005",
+     ""
+    ],
+    [
+     "Cost of products",
+     "(62,877",
+     ")",
+     "",
+     "(72,922",
+     ")",
+     "",
+     "(68,879",
+     ")"
+    ],
+    [
+     "Cost of services",
+     "(9,154",
+     ")",
+     "",
+     "(8,499",
+     ")",
+     "",
+     "(7,663",
+     ")"
+    ],
+    [
+     "Boeing Capital interest expense",
+     "(62",
+     ")",
+     "",
+     "(69",
+     ")",
+     "",
+     "(70",
+     ")"
+    ],
+    [
+     "Total costs and expenses",
+     "(72,093",
+     ")",
+     "",
+     "(81,490",
+     ")",
+     "",
+     "(76,612",
+     ")"
+    ],
+    [
+     "",
+     "4,466",
+     "",
+     "",
+     "19,637",
+     "",
+     "",
+     "17,393",
+     ""
+    ],
+    [
+     "(Loss)/income from operating investments, net",
+     "(4",
+     ")",
+     "",
+     "111",
+     "",
+     "",
+     "204",
+     ""
+    ],
+    [
+     "General and administrative expense",
+     "(3,909",
+     ")",
+     "",
+     "(4,567",
+     ")",
+     "",
+     "(4,095",
+     ")"
+    ],
+    [
+     "Research and development expense, net",
+     "(3,219",
+     ")",
+     "",
+     "(3,269",
+     ")",
+     "",
+     "(3,179",
+     ")"
+    ],
+    [
+     "Gain on dispositions, net",
+     "691",
+     "",
+     "",
+     "75",
+     "",
+     "",
+     "21",
+     ""
+    ],
+    [
+     "(Loss)/earnings from operations",
+     "(1,975",
+     ")",
+     "",
+     "11,987",
+     "",
+     "",
+     "10,344",
+     ""
+    ],
+    [
+     "Other income, net",
+     "438",
+     "",
+     "",
+     "92",
+     "",
+     "",
+     "123",
+     ""
+    ],
+    [
+     "Interest and debt expense",
+     "(722",
+     ")",
+     "",
+     "(475",
+     ")",
+     "",
+     "(360",
+     ")"
+    ],
+    [
+     "(Loss)/earnings before income taxes",
+     "(2,259",
+     ")",
+     "",
+     "11,604",
+     "",
+     "",
+     "10,107",
+     ""
+    ],
+    [
+     "Income tax benefit/(expense)",
+     "1,623",
+     "",
+     "",
+     "(1,144",
+     ")",
+     "",
+     "(1,649",
+     ")"
+    ],
+    [
+     "Net (loss)/earnings",
+     "",
+     "($636",
+     ")",
+     "",
+     "",
+     "$10,460",
+     "",
+     "",
+     "",
+     "$8,458",
+     ""
+    ],
+    [
+     "Basic (loss)/earnings per share",
+     "",
+     "($1.12",
+     ")",
+     "",
+     "",
+     "$18.05",
+     "",
+     "",
+     "",
+     "$14.03",
+     ""
+    ],
+    [
+     "Diluted (loss)/earnings per share",
+     "",
+     "($1.12",
+     ")",
+     "",
+     "",
+     "$17.85",
+     "",
+     "",
+     "",
+     "$13.85",
+     ""
+    ]
+   ]
+  },
+  {
+   "index": 66,
+   "statement": "income_statement",
+   "scale_phrase": "Dollars in millions",
+   "rows": [
+    [
+     "(Dollars in millions)",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "Years ended December 31,",
+     "2019",
+     "",
+     "",
+     "2018",
+     "",
+     "",
+     "2017",
+     ""
+    ],
+    [
+     "Net (loss)/earnings",
+     "",
+     "($636",
+     ")",
+     "",
+     "",
+     "$10,460",
+     "",
+     "",
+     "",
+     "$8,458",
+     ""
+    ],
+    [
+     "Other comprehensive income/(loss), net of tax:",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "Currency translation adjustments",
+     "(27",
+     ")",
+     "",
+     "(86",
+     ")",
+     "",
+     "128",
+     ""
+    ],
+    [
+     "Unrealized gain on certain investments, net of tax of $0, ($1) and ($1)",
+     "1",
+     "",
+     "",
+     "2",
+     "",
+     "",
+     "1",
+     ""
+    ],
+    [
+     "Derivative instruments:",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "Unrealized (loss)/gain arising during period, net of tax of $13, $40, and ($66)",
+     "(48",
+     ")",
+     "",
+     "(146",
+     ")",
+     "",
+     "119",
+     ""
+    ],
+    [
+     "Reclassification adjustment for loss included in net earnings, net of tax of ($7), ($8), and ($28)",
+     "26",
+     "",
+     "",
+     "30",
+     "",
+     "",
+     "52",
+     ""
+    ],
+    [
+     "Total derivative instruments, net of tax",
+     "(22",
+     ")",
+     "",
+     "(116",
+     ")",
+     "",
+     "171",
+     ""
+    ],
+    [
+     "Defined benefit pension plans & other postretirement benefits:",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "Net actuarial (loss)/gain arising during the period, net of tax of $405, ($105), and $248",
+     "(1,413",
+     ")",
+     "",
+     "384",
+     "",
+     "",
+     "(495",
+     ")"
+    ],
+    [
+     "Amortization of actuarial losses included in net periodic pension cost, net of tax of ($133), ($242), and ($272)",
+     "464",
+     "",
+     "",
+     "878",
+     "",
+     "",
+     "542",
+     ""
+    ],
+    [
+     "Settlements and curtailments included in net income, net of tax of $0, ($2), and $0",
+     "",
+     "",
+     "8",
+     "",
+     "",
+     ""
+    ],
+    [
+     "Pension and postretirement benefit/(cost) related to our equity method investments, net of tax ($5), ($6), and $5",
+     "17",
+     "",
+     "",
+     "22",
+     "",
+     "",
+     "(11",
+     ")"
+    ],
+    [
+     "Amortization of prior service credits included in net periodic pension cost, net of tax of $25, $39, and $59",
+     "(89",
+     ")",
+     "",
+     "(143",
+     ")",
+     "",
+     "(117",
+     ")"
+    ],
+    [
+     "Prior service (credit)/cost arising during the period, net of tax of $0, ($94), and ($14)",
+     "(1",
+     ")",
+     "",
+     "341",
+     "",
+     "",
+     "28",
+     ""
+    ],
+    [
+     "Total defined benefit pension plans & other postretirement benefits, net of tax",
+     "(1,022",
+     ")",
+     "",
+     "1,490",
+     "",
+     "",
+     "(53",
+     ")"
+    ],
+    [
+     "Other comprehensive (loss)/income, net of tax",
+     "(1,070",
+     ")",
+     "",
+     "1,290",
+     "",
+     "",
+     "247",
+     ""
+    ],
+    [
+     "Comprehensive loss related to noncontrolling interests",
+     "(41",
+     ")",
+     "",
+     "(21",
+     ")",
+     "",
+     "(2",
+     ")"
+    ],
+    [
+     "Comprehensive (loss)/income, net of tax",
+     "",
+     "($1,747",
+     ")",
+     "",
+     "",
+     "$11,729",
+     "",
+     "",
+     "",
+     "$8,703",
+     ""
+    ]
+   ]
+  },
+  {
+   "index": 67,
+   "statement": "balance_sheet",
+   "scale_phrase": "Dollars in millions",
+   "rows": [
+    [
+     "(Dollars in millions, except per share data)",
+     "",
+     "",
+     ""
+    ],
+    [
+     "December 31,",
+     "2019",
+     "",
+     "",
+     "2018",
+     ""
+    ],
+    [
+     "Assets",
+     "",
+     "",
+     ""
+    ],
+    [
+     "Cash and cash equivalents",
+     "",
+     "$9,485",
+     "",
+     "",
+     "",
+     "$7,637",
+     ""
+    ],
+    [
+     "Short-term and other investments",
+     "545",
+     "",
+     "",
+     "927",
+     ""
+    ],
+    [
+     "Accounts receivable, net",
+     "3,266",
+     "",
+     "",
+     "3,879",
+     ""
+    ],
+    [
+     "Unbilled receivables, net",
+     "9,043",
+     "",
+     "",
+     "10,025",
+     ""
+    ],
+    [
+     "Current portion of customer financing, net",
+     "162",
+     "",
+     "",
+     "460",
+     ""
+    ],
+    [
+     "Inventories",
+     "76,622",
+     "",
+     "",
+     "62,567",
+     ""
+    ],
+    [
+     "Other current assets",
+     "3,106",
+     "",
+     "",
+     "2,335",
+     ""
+    ],
+    [
+     "Total current assets",
+     "102,229",
+     "",
+     "",
+     "87,830",
+     ""
+    ],
+    [
+     "Customer financing, net",
+     "2,136",
+     "",
+     "",
+     "2,418",
+     ""
+    ],
+    [
+     "Property, plant and equipment, net",
+     "12,502",
+     "",
+     "",
+     "12,645",
+     ""
+    ],
+    [
+     "Goodwill",
+     "8,060",
+     "",
+     "",
+     "7,840",
+     ""
+    ],
+    [
+     "Acquired intangible assets, net",
+     "3,338",
+     "",
+     "",
+     "3,429",
+     ""
+    ],
+    [
+     "Deferred income taxes",
+     "683",
+     "",
+     "",
+     "284",
+     ""
+    ],
+    [
+     "Investments",
+     "1,092",
+     "",
+     "",
+     "1,087",
+     ""
+    ],
+    [
+     "Other assets, net of accumulated amortization of $580 and $503",
+     "3,585",
+     "",
+     "",
+     "1,826",
+     ""
+    ],
+    [
+     "Total assets",
+     "",
+     "$133,625",
+     "",
+     "",
+     "",
+     "$117,359",
+     ""
+    ],
+    [
+     "Liabilities and equity",
+     "",
+     "",
+     ""
+    ],
+    [
+     "Accounts payable",
+     "",
+     "$15,553",
+     "",
+     "",
+     "",
+     "$12,916",
+     ""
+    ],
+    [
+     "Accrued liabilities",
+     "22,868",
+     "",
+     "",
+     "14,808",
+     ""
+    ],
+    [
+     "Advances and progress billings",
+     "51,551",
+     "",
+     "",
+     "50,676",
+     ""
+    ],
+    [
+     "Short-term debt and current portion of long-term debt",
+     "7,340",
+     "",
+     "",
+     "3,190",
+     ""
+    ],
+    [
+     "Total current liabilities",
+     "97,312",
+     "",
+     "",
+     "81,590",
+     ""
+    ],
+    [
+     "Deferred income taxes",
+     "413",
+     "",
+     "",
+     "1,736",
+     ""
+    ],
+    [
+     "Accrued retiree health care",
+     "4,540",
+     "",
+     "",
+     "4,584",
+     ""
+    ],
+    [
+     "Accrued pension plan liability, net",
+     "16,276",
+     "",
+     "",
+     "15,323",
+     ""
+    ],
+    [
+     "Other long-term liabilities",
+     "3,422",
+     "",
+     "",
+     "3,059",
+     ""
+    ],
+    [
+     "Long-term debt",
+     "19,962",
+     "",
+     "",
+     "10,657",
+     ""
+    ],
+    [
+     "Shareholders' equity:",
+     "",
+     "",
+     ""
+    ],
+    [
+     "Common stock, par value $5.00 - 1,200,000,000 shares authorized; 1,012,261,159 shares issued",
+     "5,061",
+     "",
+     "",
+     "5,061",
+     ""
+    ],
+    [
+     "Additional paid-in capital",
+     "6,745",
+     "",
+     "",
+     "6,768",
+     ""
+    ],
+    [
+     "Treasury stock, at cost",
+     "(54,914",
+     ")",
+     "",
+     "(52,348",
+     ")"
+    ],
+    [
+     "Retained earnings",
+     "50,644",
+     "",
+     "",
+     "55,941",
+     ""
+    ],
+    [
+     "Accumulated other comprehensive loss",
+     "(16,153",
+     ")",
+     "",
+     "(15,083",
+     ")"
+    ],
+    [
+     "Total shareholders' equity",
+     "(8,617",
+     ")",
+     "",
+     "339",
+     ""
+    ],
+    [
+     "Noncontrolling interests",
+     "317",
+     "",
+     "",
+     "71",
+     ""
+    ],
+    [
+     "Total equity",
+     "(8,300",
+     ")",
+     "",
+     "410",
+     ""
+    ],
+    [
+     "Total liabilities and equity",
+     "",
+     "$133,625",
+     "",
+     "",
+     "",
+     "$117,359",
+     ""
+    ]
+   ]
+  },
+  {
+   "index": 68,
+   "statement": "cash_flow",
+   "scale_phrase": "Dollars in millions",
+   "rows": [
+    [
+     "(Dollars in millions)",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "Years ended December 31,",
+     "2019",
+     "",
+     "",
+     "2018",
+     "",
+     "",
+     "2017",
+     ""
+    ],
+    [
+     "Cash flows - operating activities:",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "Net (loss)/earnings",
+     "",
+     "($636",
+     ")",
+     "",
+     "",
+     "$10,460",
+     "",
+     "",
+     "",
+     "$8,458",
+     ""
+    ],
+    [
+     "Adjustments to reconcile net earnings to net cash provided by operating activities:",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "Non-cash items -",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "Share-based plans expense",
+     "212",
+     "",
+     "",
+     "202",
+     "",
+     "",
+     "202",
+     ""
+    ],
+    [
+     "Depreciation and amortization",
+     "2,271",
+     "",
+     "",
+     "2,114",
+     "",
+     "",
+     "2,047",
+     ""
+    ],
+    [
+     "Investment/asset impairment charges, net",
+     "443",
+     "",
+     "",
+     "93",
+     "",
+     "",
+     "113",
+     ""
+    ],
+    [
+     "Customer financing valuation adjustments",
+     "250",
+     "",
+     "",
+     "(3",
+     ")",
+     "",
+     "2",
+     ""
+    ],
+    [
+     "Gain on dispositions, net",
+     "(691",
+     ")",
+     "",
+     "(75",
+     ")",
+     "",
+     "(21",
+     ")"
+    ],
+    [
+     "Other charges and credits, net",
+     "334",
+     "",
+     "",
+     "247",
+     "",
+     "",
+     "293",
+     ""
+    ],
+    [
+     "Changes in assets and liabilities -",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "Accounts receivable",
+     "603",
+     "",
+     "",
+     "(795",
+     ")",
+     "",
+     "(840",
+     ")"
+    ],
+    [
+     "Unbilled receivables",
+     "982",
+     "",
+     "",
+     "(1,826",
+     ")",
+     "",
+     "(1,600",
+     ")"
+    ],
+    [
+     "Advances and progress billings",
+     "737",
+     "",
+     "",
+     "2,636",
+     "",
+     "",
+     "4,700",
+     ""
+    ],
+    [
+     "Inventories",
+     "(12,391",
+     ")",
+     "",
+     "568",
+     "",
+     "",
+     "(1,403",
+     ")"
+    ],
+    [
+     "Other current assets",
+     "(682",
+     ")",
+     "",
+     "98",
+     "",
+     "",
+     "(19",
+     ")"
+    ],
+    [
+     "Accounts payable",
+     "1,600",
+     "",
+     "",
+     "2",
+     "",
+     "",
+     "130",
+     ""
+    ],
+    [
+     "Accrued liabilities",
+     "7,781",
+     "",
+     "",
+     "1,117",
+     "",
+     "",
+     "335",
+     ""
+    ],
+    [
+     "Income taxes receivable, payable and deferred",
+     "(2,476",
+     ")",
+     "",
+     "(180",
+     ")",
+     "",
+     "656",
+     ""
+    ],
+    [
+     "Other long-term liabilities",
+     "(621",
+     ")",
+     "",
+     "87",
+     "",
+     "",
+     "94",
+     ""
+    ],
+    [
+     "Pension and other postretirement plans",
+     "(777",
+     ")",
+     "",
+     "(153",
+     ")",
+     "",
+     "(582",
+     ")"
+    ],
+    [
+     "Customer financing, net",
+     "419",
+     "",
+     "",
+     "120",
+     "",
+     "",
+     "1,041",
+     ""
+    ],
+    [
+     "Other",
+     "196",
+     "",
+     "",
+     "610",
+     "",
+     "",
+     "(260",
+     ")"
+    ],
+    [
+     "Net cash (used)/provided by operating activities",
+     "(2,446",
+     ")",
+     "",
+     "15,322",
+     "",
+     "",
+     "13,346",
+     ""
+    ],
+    [
+     "Cash flows - investing activities:",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "Property, plant and equipment additions",
+     "(1,834",
+     ")",
+     "",
+     "(1,722",
+     ")",
+     "",
+     "(1,739",
+     ")"
+    ],
+    [
+     "Property, plant and equipment reductions",
+     "334",
+     "",
+     "",
+     "120",
+     "",
+     "",
+     "92",
+     ""
+    ],
+    [
+     "Acquisitions, net of cash acquired",
+     "(455",
+     ")",
+     "",
+     "(3,230",
+     ")",
+     "",
+     "(324",
+     ")"
+    ],
+    [
+     "Proceeds from dispositions",
+     "464",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "Contributions to investments",
+     "(1,658",
+     ")",
+     "",
+     "(2,607",
+     ")",
+     "",
+     "(3,569",
+     ")"
+    ],
+    [
+     "Proceeds from investments",
+     "1,759",
+     "",
+     "",
+     "2,898",
+     "",
+     "",
+     "3,607",
+     ""
+    ],
+    [
+     "Purchase of distribution rights",
+     "(127",
+     ")",
+     "",
+     "(69",
+     ")",
+     "",
+     "(131",
+     ")"
+    ],
+    [
+     "Other",
+     "(13",
+     ")",
+     "",
+     "(11",
+     ")",
+     "",
+     "6",
+     ""
+    ],
+    [
+     "Net cash used by investing activities",
+     "(1,530",
+     ")",
+     "",
+     "(4,621",
+     ")",
+     "",
+     "(2,058",
+     ")"
+    ],
+    [
+     "Cash flows - financing activities:",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "New borrowings",
+     "25,389",
+     "",
+     "",
+     "8,548",
+     "",
+     "",
+     "2,077",
+     ""
+    ],
+    [
+     "Debt repayments",
+     "(12,171",
+     ")",
+     "",
+     "(7,183",
+     ")",
+     "",
+     "(953",
+     ")"
+    ],
+    [
+     "Contributions from noncontrolling interests",
+     "7",
+     "",
+     "",
+     "35",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "Stock options exercised",
+     "58",
+     "",
+     "",
+     "81",
+     "",
+     "",
+     "311",
+     ""
+    ],
+    [
+     "Employee taxes on certain share-based payment arrangements",
+     "(248",
+     ")",
+     "",
+     "(257",
+     ")",
+     "",
+     "(132",
+     ")"
+    ],
+    [
+     "Common shares repurchased",
+     "(2,651",
+     ")",
+     "",
+     "(9,000",
+     ")",
+     "",
+     "(9,236",
+     ")"
+    ],
+    [
+     "Dividends paid",
+     "(4,630",
+     ")",
+     "",
+     "(3,946",
+     ")",
+     "",
+     "(3,417",
+     ")"
+    ],
+    [
+     "Other",
+     "(15",
+     ")",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "Net cash provided/(used) by financing activities",
+     "5,739",
+     "",
+     "",
+     "(11,722",
+     ")",
+     "",
+     "(11,350",
+     ")"
+    ],
+    [
+     "Effect of exchange rate changes on cash and cash equivalents",
+     "(5",
+     ")",
+     "",
+     "(53",
+     ")",
+     "",
+     "80",
+     ""
+    ],
+    [
+     "Net increase/(decrease) in cash & cash equivalents, including restricted",
+     "1,758",
+     "",
+     "",
+     "(1,074",
+     ")",
+     "",
+     "18",
+     ""
+    ],
+    [
+     "Cash & cash equivalents, including restricted, at beginning of year",
+     "7,813",
+     "",
+     "",
+     "8,887",
+     "",
+     "",
+     "8,869",
+     ""
+    ],
+    [
+     "Cash & cash equivalents, including restricted, at end of year",
+     "9,571",
+     "",
+     "",
+     "7,813",
+     "",
+     "",
+     "8,887",
+     ""
+    ],
+    [
+     "Less restricted cash & cash equivalents, included in Investments",
+     "86",
+     "",
+     "",
+     "176",
+     "",
+     "",
+     "74",
+     ""
+    ],
+    [
+     "Cash and cash equivalents at end of year",
+     "",
+     "$9,485",
+     "",
+     "",
+     "",
+     "$7,637",
+     "",
+     "",
+     "",
+     "$8,813",
+     ""
+    ]
+   ]
+  },
+  {
+   "index": 92,
+   "statement": "income_statement",
+   "scale_phrase": null,
+   "rows": [
+    [
+     "",
+     "2019",
+     "",
+     "",
+     "2018",
+     "",
+     "",
+     "2017",
+     ""
+    ],
+    [
+     "Unrecognized tax benefits - January 1",
+     "",
+     "$2,412",
+     "",
+     "",
+     "",
+     "$1,736",
+     "",
+     "",
+     "",
+     "$1,557",
+     ""
+    ],
+    [
+     "Gross increases - tax positions in prior periods",
+     "100",
+     "",
+     "",
+     "87",
+     "",
+     "",
+     "3",
+     ""
+    ],
+    [
+     "Gross decreases - tax positions in prior periods",
+     "(1,418",
+     ")",
+     "",
+     "(410",
+     ")",
+     "",
+     "(44",
+     ")"
+    ],
+    [
+     "Gross increases - current-period tax positions",
+     "344",
+     "",
+     "",
+     "1,208",
+     "",
+     "",
+     "220",
+     ""
+    ],
+    [
+     "Gross decreases - current period tax positions",
+     "(1",
+     ")",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "Settlements",
+     "39",
+     "",
+     "",
+     "(206",
+     ")",
+     "",
+     "",
+     ""
+    ],
+    [
+     "Statute Lapse",
+     "",
+     "",
+     "",
+     "(3",
+     ")",
+     "",
+     "",
+     ""
+    ],
+    [
+     "Unrecognized tax benefits - December 31",
+     "",
+     "$1,476",
+     "",
+     "",
+     "",
+     "$2,412",
+     "",
+     "",
+     "",
+     "$1,736",
+     ""
+    ]
+   ]
+  },
+  {
+   "index": 105,
+   "statement": "income_statement",
+   "scale_phrase": null,
+   "rows": [
+    [
+     "",
+     "Notes receivable",
+     "",
+     "",
+     "Sales-type/finance leases",
+     "",
+     "",
+     "Operating leases",
+     ""
+    ],
+    [
+     "Year 1",
+     "",
+     "$382",
+     "",
+     "",
+     "",
+     "$191",
+     "",
+     "",
+     "",
+     "$130",
+     ""
+    ],
+    [
+     "Year 2",
+     "7",
+     "",
+     "",
+     "141",
+     "",
+     "",
+     "103",
+     ""
+    ],
+    [
+     "Year 3",
+     "37",
+     "",
+     "",
+     "127",
+     "",
+     "",
+     "89",
+     ""
+    ],
+    [
+     "Year 4",
+     "17",
+     "",
+     "",
+     "118",
+     "",
+     "",
+     "74",
+     ""
+    ],
+    [
+     "Year 5",
+     "",
+     "",
+     "",
+     "98",
+     "",
+     "",
+     "58",
+     ""
+    ],
+    [
+     "Thereafter",
+     "",
+     "",
+     "",
+     "124",
+     "",
+     "",
+     "41",
+     ""
+    ],
+    [
+     "Total lease receipts",
+     "443",
+     "",
+     "",
+     "799",
+     "",
+     "",
+     "495",
+     ""
+    ],
+    [
+     "Less imputed interest",
+     "",
+     "",
+     "",
+     "(163",
+     ")",
+     "",
+     "",
+     ""
+    ],
+    [
+     "Estimated unguaranteed residual values",
+     "",
+     "",
+     "393",
+     "",
+     "",
+     ""
+    ],
+    [
+     "Total",
+     "",
+     "$443",
+     "",
+     "",
+     "",
+     "$1,029",
+     "",
+     "",
+     "",
+     "$495",
+     ""
+    ]
+   ]
+  },
+  {
+   "index": 106,
+   "statement": "income_statement",
+   "scale_phrase": null,
+   "rows": [
+    [
+     "",
+     "2019",
+     "",
+     "",
+     "2018",
+     ""
+    ],
+    [
+     "Land",
+     "",
+     "$527",
+     "",
+     "",
+     "",
+     "$546",
+     ""
+    ],
+    [
+     "Buildings and land improvements",
+     "14,288",
+     "",
+     "",
+     "14,109",
+     ""
+    ],
+    [
+     "Machinery and equipment",
+     "15,723",
+     "",
+     "",
+     "15,221",
+     ""
+    ],
+    [
+     "Construction in progress",
+     "1,306",
+     "",
+     "",
+     "1,337",
+     ""
+    ],
+    [
+     "Gross property, plant and equipment",
+     "31,844",
+     "",
+     "",
+     "31,213",
+     ""
+    ],
+    [
+     "Less accumulated depreciation",
+     "(19,342",
+     ")",
+     "",
+     "(18,568",
+     ")"
+    ],
+    [
+     "Total",
+     "",
+     "$12,502",
+     "",
+     "",
+     "",
+     "$12,645",
+     ""
+    ]
+   ]
+  },
+  {
+   "index": 111,
+   "statement": "balance_sheet",
+   "scale_phrase": null,
+   "rows": [
+    [
+     "",
+     "December 31 2019",
+     ""
+    ],
+    [
+     "Operating leases:",
+     ""
+    ],
+    [
+     "Operating lease right-of-use assets",
+     "",
+     "$1,182",
+     ""
+    ],
+    [
+     "Current portion of lease liabilities",
+     "252",
+     ""
+    ],
+    [
+     "Non-current portion of lease liabilities",
+     "978",
+     ""
+    ],
+    [
+     "Total operating lease liabilities",
+     "",
+     "$1,230",
+     ""
+    ],
+    [
+     "Weighted average remaining lease term (years)",
+     "9",
+     ""
+    ],
+    [
+     "Weighted average discount rate",
+     "3.35",
+     "%"
+    ]
+   ]
+  },
+  {
+   "index": 112,
+   "statement": "balance_sheet",
+   "scale_phrase": null,
+   "rows": [
+    [
+     "",
+     "",
+     "Operating leases",
+     ""
+    ],
+    [
+     "2020",
+     "",
+     "",
+     "$287",
+     ""
+    ],
+    [
+     "2021",
+     "",
+     "235",
+     ""
+    ],
+    [
+     "2022",
+     "",
+     "194",
+     ""
+    ],
+    [
+     "2023",
+     "",
+     "151",
+     ""
+    ],
+    [
+     "2024",
+     "",
+     "98",
+     ""
+    ],
+    [
+     "Thereafter",
+     "",
+     "609",
+     ""
+    ],
+    [
+     "Total lease payments",
+     "",
+     "1,574",
+     ""
+    ],
+    [
+     "Less imputed interest",
+     "",
+     "(344",
+     ")"
+    ],
+    [
+     "Total",
+     "",
+     "",
+     "$1,230",
+     ""
+    ]
+   ]
+  },
+  {
+   "index": 120,
+   "statement": "income_statement",
+   "scale_phrase": null,
+   "rows": [
+    [
+     "",
+     "2019",
+     "",
+     "",
+     "2018",
+     ""
+    ],
+    [
+     "Unsecured debt securities",
+     "",
+     "$1,099",
+     "",
+     "",
+     "",
+     "$1,151",
+     ""
+    ],
+    [
+     "Non-recourse debt and notes",
+     "21",
+     "",
+     "",
+     "25",
+     ""
+    ],
+    [
+     "Finance lease obligations",
+     "71",
+     "",
+     "",
+     "57",
+     ""
+    ],
+    [
+     "Commercial paper",
+     "6,109",
+     "",
+     "",
+     "1,895",
+     ""
+    ],
+    [
+     "Other notes",
+     "40",
+     "",
+     "",
+     "62",
+     ""
+    ],
+    [
+     "Total",
+     "",
+     "$7,340",
+     "",
+     "",
+     "",
+     "$3,190",
+     ""
+    ]
+   ]
+  },
+  {
+   "index": 121,
+   "statement": "income_statement",
+   "scale_phrase": null,
+   "rows": [
+    [
+     "",
+     "2019",
+     "",
+     "",
+     "2018",
+     ""
+    ],
+    [
+     "Unsecured debt securities",
+     "",
+     "",
+     ""
+    ],
+    [
+     "1.65% - 4.88% due through 2059",
+     "",
+     "$17,404",
+     "",
+     "",
+     "",
+     "$7,538",
+     ""
+    ],
+    [
+     "5.80% - 6.88% due through 2043",
+     "1,740",
+     "",
+     "",
+     "2,388",
+     ""
+    ],
+    [
+     "7.25% - 8.75% due through 2043",
+     "1,639",
+     "",
+     "",
+     "1,638",
+     ""
+    ],
+    [
+     "Commercial paper",
+     "6,109",
+     "",
+     "",
+     "1,895",
+     ""
+    ],
+    [
+     "Non-recourse debt and notes",
+     "",
+     "",
+     ""
+    ],
+    [
+     "6.98% notes due through 2021",
+     "37",
+     "",
+     "",
+     "62",
+     ""
+    ],
+    [
+     "Finance lease obligations due through 2044",
+     "229",
+     "",
+     "",
+     "156",
+     ""
+    ],
+    [
+     "Other notes",
+     "144",
+     "",
+     "",
+     "170",
+     ""
+    ],
+    [
+     "Total debt",
+     "",
+     "$27,302",
+     "",
+     "",
+     "",
+     "$13,847",
+     ""
+    ]
+   ]
+  },
+  {
+   "index": 146,
+   "statement": "balance_sheet",
+   "scale_phrase": null,
+   "rows": [
+    [
+     "",
+     "Notional amounts",
+     "Other assets",
+     "Accrued liabilities"
+    ],
+    [
+     "",
+     "2019",
+     "",
+     "",
+     "2018",
+     "",
+     "2019",
+     "",
+     "",
+     "2018",
+     "",
+     "2019",
+     "",
+     "",
+     "2018",
+     ""
+    ],
+    [
+     "Derivatives designated as hedging instruments:",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "Foreign exchange contracts",
+     "",
+     "$2,590",
+     "",
+     "",
+     "",
+     "$3,407",
+     "",
+     "",
+     "$29",
+     "",
+     "",
+     "",
+     "$32",
+     "",
+     "",
+     "($60",
+     ")",
+     "",
+     "",
+     "($132",
+     ")"
+    ],
+    [
+     "Interest rate contracts",
+     "",
+     "",
+     "",
+     "125",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "Commodity contracts",
+     "645",
+     "",
+     "",
+     "57",
+     "",
+     "4",
+     "",
+     "",
+     "9",
+     "",
+     "(72",
+     ")",
+     "",
+     "(2",
+     ")"
+    ],
+    [
+     "Derivatives not receiving hedge accounting treatment:",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "Foreign exchange contracts",
+     "285",
+     "",
+     "",
+     "414",
+     "",
+     "1",
+     "",
+     "",
+     "11",
+     "",
+     "(6",
+     ")",
+     "",
+     "(2",
+     ")"
+    ],
+    [
+     "Commodity contracts",
+     "1,644",
+     "",
+     "",
+     "478",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "Total derivatives",
+     "",
+     "$5,164",
+     "",
+     "",
+     "",
+     "$4,481",
+     "",
+     "34",
+     "",
+     "",
+     "52",
+     "",
+     "(138",
+     ")",
+     "",
+     "(136",
+     ")"
+    ],
+    [
+     "Netting arrangements",
+     "",
+     "",
+     "",
+     "(20",
+     ")",
+     "",
+     "(24",
+     ")",
+     "20",
+     "",
+     "",
+     "24",
+     ""
+    ],
+    [
+     "Net recorded balance",
+     "",
+     "",
+     "",
+     "",
+     "$14",
+     "",
+     "",
+     "",
+     "$28",
+     "",
+     "",
+     "($118",
+     ")",
+     "",
+     "",
+     "($112",
+     ")"
+    ]
+   ]
+  },
+  {
+   "index": 147,
+   "statement": "balance_sheet",
+   "scale_phrase": null,
+   "rows": [
+    [
+     "",
+     "Notional amounts represent the gross contract/notional amount of the derivatives outstanding."
+    ]
+   ]
+  },
+  {
+   "index": 148,
+   "statement": "balance_sheet",
+   "scale_phrase": null,
+   "rows": [
+    [
+     "Years ended December 31,",
+     "2019",
+     "",
+     "",
+     "2018",
+     ""
+    ],
+    [
+     "Recognized in Other comprehensive income, net of taxes:",
+     "",
+     "",
+     ""
+    ],
+    [
+     "Foreign exchange contracts",
+     "",
+     "$15",
+     "",
+     "",
+     "",
+     "($156",
+     ")"
+    ],
+    [
+     "Commodity contracts",
+     "(63",
+     ")",
+     "",
+     "10",
+     ""
+    ]
+   ]
+  },
+  {
+   "index": 155,
+   "statement": "balance_sheet",
+   "scale_phrase": null,
+   "rows": [
+    [
+     "",
+     "December 31, 2019"
+    ],
+    [
+     "",
+     "Carrying Amount",
+     "",
+     "",
+     "Total Fair Value",
+     "",
+     "",
+     "Level 1",
+     "",
+     "Level 2",
+     "",
+     "",
+     "Level 3",
+     ""
+    ],
+    [
+     "Assets",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "Notes receivable, net",
+     "",
+     "$443",
+     "",
+     "",
+     "",
+     "$444",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "$444",
+     "",
+     "",
+     ""
+    ],
+    [
+     "Liabilities",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "Debt, excluding finance lease obligations and commercial paper",
+     "(20,964",
+     ")",
+     "",
+     "(23,119",
+     ")",
+     "",
+     "",
+     "",
+     "(23,081",
+     ")",
+     "",
+     "",
+     "($38",
+     ")"
+    ]
+   ]
+  },
+  {
+   "index": 156,
+   "statement": "balance_sheet",
+   "scale_phrase": null,
+   "rows": [
+    [
+     "",
+     "December 31, 2018"
+    ],
+    [
+     "",
+     "Carrying Amount",
+     "",
+     "",
+     "Total Fair Value",
+     "",
+     "",
+     "Level 1",
+     "",
+     "Level 2",
+     "",
+     "",
+     "Level 3",
+     ""
+    ],
+    [
+     "Assets",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "Notes receivable, net",
+     "",
+     "$730",
+     "",
+     "",
+     "",
+     "$735",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "$735",
+     "",
+     "",
+     ""
+    ],
+    [
+     "Liabilities",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "Debt, excluding finance lease obligations and commercial paper",
+     "(11,796",
+     ")",
+     "",
+     "(12,746",
+     ")",
+     "",
+     "",
+     "",
+     "(12,682",
+     ")",
+     "",
+     "",
+     "($64",
+     ")"
+    ]
+   ]
+  }
+ ]
+}

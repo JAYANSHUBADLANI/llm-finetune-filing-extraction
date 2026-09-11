@@ -7,6 +7,20 @@ import pytest
 import data_prep
 
 DATA_DIR = Path(__file__).resolve().parents[1] / "data"
+FIXTURE_DIR = Path(__file__).resolve().parent / "fixtures" / "prepared"
+
+
+@pytest.fixture(autouse=True)
+def prepared_fixtures(monkeypatch):
+    """Read prepared filings from the frozen copies in tests/fixtures.
+
+    These tests parse two real filings, which live in the separate
+    filing-extraction-benchmark project. Pointing at the checkout beside this
+    one makes them pass on the machine that happens to have it and fail
+    everywhere else, so the two filings they need are committed here instead.
+    See tests/fixtures/prepared/README.md.
+    """
+    monkeypatch.setattr(data_prep, "PREPARED_DIR", FIXTURE_DIR)
 
 
 @pytest.fixture(scope="module")

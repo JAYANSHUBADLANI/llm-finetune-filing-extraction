@@ -19,7 +19,6 @@ script.
 from __future__ import annotations
 
 import json
-import sys
 import time
 import urllib.error
 import urllib.request
@@ -27,10 +26,7 @@ from pathlib import Path
 
 import evaluate_model  # reuses parse_numeric
 from format_for_training import to_prompt_completion
-
-SOURCE_PROJECT = Path(__file__).resolve().parents[2] / "filing-extraction-benchmark"
-sys.path.insert(0, str(SOURCE_PROJECT / "src"))
-from filingbench.scoring import values_agree  # noqa: E402
+from scoring_rules import values_agree
 
 ROOT = Path(__file__).resolve().parents[1]
 DATA_DIR = ROOT / "data"

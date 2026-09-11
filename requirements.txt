@@ -1,4 +1,8 @@
-mlx==0.32.2
-mlx-lm==0.31.3
+# mlx and mlx-lm are Apple silicon only. They install on Linux but their
+# native library does not load there, so they are marked rather than left to
+# fail at import time on a machine, CI included, that cannot run the model.
+# Everything except run_eval, LoRA training and fusing works without them.
+mlx==0.32.2; sys_platform == "darwin"
+mlx-lm==0.31.3; sys_platform == "darwin"
 pandas==3.0.5
 pytest==9.1.1

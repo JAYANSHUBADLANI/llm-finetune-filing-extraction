@@ -26,15 +26,16 @@ extractable number, not that it was never asked.
 from __future__ import annotations
 
 import json
-import sys
 from collections import Counter
 from pathlib import Path
 
 import pandas as pd
 
+from scoring_rules import classify
+
+# SOURCE_PROJECT is still the ground truth data this project scores against.
+# Only the scoring rules themselves are local, see scoring_rules.py.
 SOURCE_PROJECT = Path(__file__).resolve().parents[2] / "filing-extraction-benchmark"
-sys.path.insert(0, str(SOURCE_PROJECT / "src"))
-from filingbench.scoring import classify  # noqa: E402
 
 ROOT = Path(__file__).resolve().parents[1]
 RESULTS_DIR = ROOT / "results"

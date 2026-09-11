@@ -13,17 +13,11 @@ from __future__ import annotations
 
 import json
 import re
-import sys
 import time
 from pathlib import Path
 
-from mlx_lm import generate, load
-
 import few_shot
-
-SOURCE_PROJECT = Path(__file__).resolve().parents[2] / "filing-extraction-benchmark"
-sys.path.insert(0, str(SOURCE_PROJECT / "src"))
-from filingbench.scoring import values_agree  # noqa: E402
+from scoring_rules import values_agree
 
 ROOT = Path(__file__).resolve().parents[1]
 DATA_DIR = ROOT / "data"
@@ -81,6 +75,12 @@ def run_eval(
     # evaluation actually gets run, adapter_path is kept only because
     # run_fuse.py's own loading needs the same MPI patch this file does
     # not, so it is a separate script. See PROGRESS.md.
+    # mlx only builds on Apple silicon, and nothing above this line needs it,
+    # so it is imported here rather than at module scope. That keeps
+    # parse_numeric and slice_range importable, and therefore testable, on a
+    # machine that cannot run the model at all.
+    from mlx_lm import generate, load
+
     if model_path:
         model, tokenizer = load(model_path)
     elif adapter_path:

@@ -32,6 +32,11 @@ SOURCE_PROJECT = Path(__file__).resolve().parents[2] / "filing-extraction-benchm
 ROOT = Path(__file__).resolve().parents[1]
 DATA_DIR = ROOT / "data"
 
+# Named rather than built inline at the call site so the tests can point it at
+# their own frozen copies of two filings and run without the source project
+# checked out. Regenerating the dataset still reads the real cache.
+PREPARED_DIR = SOURCE_PROJECT / "data" / "cache" / "prepared"
+
 FIELD_LABELS = {
     "revenue": "total revenue",
     "operating_income": "operating income",
@@ -75,7 +80,7 @@ def load_statement_text(doc_id: str, max_chars: int = 3200) -> str:
     # captioned in millions and answers 76559 instead of 76559000000, a
     # scaling error, not an extraction error, caught during development
     # by inspecting a zero shot run's raw outputs, see PROGRESS.md.
-    path = SOURCE_PROJECT / "data" / "cache" / "prepared" / f"{doc_id}.json"
+    path = PREPARED_DIR / f"{doc_id}.json"
     with open(path) as f:
         doc = json.load(f)
     parts = []

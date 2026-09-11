@@ -23,9 +23,14 @@ and equivalents, operating cash flow) from 24 real companies' 10-K
 filings, scored against 1,225 hand labeled ground truth cells, using an
 exact scorer: a predicted value counts as correct only if it is within
 0.5% relative tolerance of the filed figure (absolute tolerance for
-per-share values). That scorer, `filingbench.scoring.values_agree`, is
-imported unmodified from the source project and used here too, so a
-percentage in this README means the same thing it means there.
+per-share values). That scorer is used unmodified here too, so a
+percentage in this README means the same thing it means there. It lives
+in `src/scoring_rules.py` as a verbatim copy rather than an import,
+because the source project is a separate repository and importing across
+a sibling directory only works on a machine that has both checked out.
+`tests/test_scoring_integration.py` asserts the copy still agrees with
+the original cell for cell whenever that checkout is present, so the two
+cannot drift apart silently.
 
 What is **not** the same: the source project's 0.9321 API figure is
 measured feeding the model the full stripped filing text, up to about
@@ -435,10 +440,12 @@ overstating them.
 
 ## Running it
 
-Requires the source project (`filing-extraction-benchmark`) present as a
-sibling directory with its `results/ground_truth.csv`, `results/split.csv`,
-and `data/cache/prepared/*.json` already built, this project reads
-those, read-only, and does not regenerate them.
+Regenerating the dataset requires the source project
+(`filing-extraction-benchmark`) present as a sibling directory with its
+`results/ground_truth.csv`, `results/split.csv`, and
+`data/cache/prepared/*.json` already built, this project reads those,
+read-only, and does not regenerate them. The committed dataset and the
+test suite do not need it, see Testing below.
 
 ```bash
 python3.12 -m venv .venv
@@ -504,6 +511,13 @@ the significance test, and the numeric claims in this README, checked
 against the actual result files, no test loads the MLX model itself,
 since that would make the suite depend on this machine's memory state
 and take minutes rather than seconds).
+
+The suite runs on a machine with neither MLX nor the source project: MLX
+is imported inside the one function that generates, and the two filings
+`test_data_prep.py` parses are committed under `tests/fixtures/prepared/`.
+The two scorer drift tests are the only ones that need the source project
+checked out alongside, and they skip rather than fail without it, so a
+clean checkout on Linux runs 71 of 73 and skips 2.
 
 ## What's left undone
 
