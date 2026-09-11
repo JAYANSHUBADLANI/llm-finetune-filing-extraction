@@ -1,4 +1,3 @@
-<!-- Title -->
 # LLM Fine-Tuning: Financial Statement Extraction
 
 [![tests](https://github.com/JAYANSHUBADLANI/llm-finetune-filing-extraction/actions/workflows/tests.yml/badge.svg)](https://github.com/JAYANSHUBADLANI/llm-finetune-filing-extraction/actions/workflows/tests.yml)
@@ -10,7 +9,7 @@ any of the gap to a hand written rules extractor (0.7765 test accuracy)
 or a frontier API language model (0.9321 test accuracy) on the same
 task?
 
-This project is a follow-up to [filing-extraction-benchmark](../filing-extraction-benchmark),
+This project is a follow-up to [filing-extraction-benchmark](https://github.com/JAYANSHUBADLANI/filing-extraction-benchmark),
 reusing that project's labeled data and scoring rule but changing the
 method and, necessarily, the input each method sees. That difference is
 the first thing to understand before reading any number below.
