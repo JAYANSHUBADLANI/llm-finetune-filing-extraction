@@ -488,9 +488,8 @@ MLX fine-tune of anything larger than 7B), whether the
 few-shot-catches-fine-tuning pattern holds a third time, or has its own
 ceiling, is unknown.
 
-Item C, the last of the three items for this pass: one more learning
-rate, 1e-4, between the working 5e-5 and the unstable 2e-4, at 3B, on
-the corrected table format. Val loss: 1.973 → 0.955 (iter 200) → 1.006,
+One more learning rate, 1e-4, between the working 5e-5 and the unstable
+2e-4, at 3B, on the corrected table format. Val loss: 1.973 → 0.955 (iter 200) → 1.006,
 smooth, no oscillation, looked, on the loss curve alone, at least as
 good as run 3's. Checked generation accuracy anyway rather than trust
 the curve: fused it and ran a 100-example check, 12/100 (12%), against
@@ -505,7 +504,6 @@ judgment call this project already made for run 2 on loss-curve grounds
 alone, just made this time on accuracy grounds after the loss curve
 gave no warning.
 
-All three follow-up items for this pass (A: wrong_row breakdown,
-B: 7B zero-shot/few-shot, C: one more learning rate) are done. Every
-result in this file and README.md as of this line is complete, checked,
-and covered by the test suite.
+With the wrong_row breakdown, the 7B zero-shot and few-shot runs and the
+extra learning rate in, every result in this file and README.md is covered
+by the test suite.

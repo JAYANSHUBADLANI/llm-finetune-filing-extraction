@@ -376,7 +376,7 @@ smaller one.
 
 ## Wrong_row isn't a flat ceiling, and part of it isn't the model's fault
 
-Asked whether the dominant failure, wrong_row, is spread evenly or
+Checked whether the dominant failure, wrong_row, is spread evenly or
 concentrated (`src/analyze_errors.py --by field` / `--by company`).
 Neither. By field, on the 7B fine-tuned model: `operating_cash_flow`
 71.8%, `stockholders_equity` 66.7%, down to `revenue` 29.5%, the field
