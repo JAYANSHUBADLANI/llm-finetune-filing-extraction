@@ -131,9 +131,9 @@ Pipeline:
   checkpoint as a plain model avoided the problem.
 - The first attempt at evaluating the fine-tuned model at any scale
   larger than 20 examples repeatedly stalled during model loading.
-  Diagnosed with `ps aux -m` rather than assumed: this machine had a
-  dozen-plus browser tabs and a few other memory-heavy applications open
-  at the time, genuine system-wide memory pressure unrelated to this
+  Diagnosed with `ps aux -m` rather than assumed: this machine had
+  other memory-heavy applications open
+  at the time, system-wide memory pressure unrelated to this
   project, not a bug here. The full 653-
   example runs below completed cleanly once retried when that pressure
   had cleared, nothing in the code changed between the stalled attempts
@@ -191,11 +191,11 @@ methods disagreed):
 
 | comparison | p-value | conclusion |
 |---|---|---|
-| zero-shot vs few-shot | < 0.001 | few-shot is genuinely, significantly better |
-| zero-shot vs fine-tuned | < 0.001 | fine-tuned is genuinely, significantly better |
+| zero-shot vs few-shot | < 0.001 | few-shot is significantly better |
+| zero-shot vs fine-tuned | < 0.001 | fine-tuned is significantly better |
 | **few-shot vs fine-tuned** | **0.145** | **not significant, this data cannot distinguish them** |
 
-The honest headline is not "fine-tuning wins": it's that putting 3
+The main result is not "fine-tuning wins". It is that putting 3
 examples in the prompt, at zero training cost, closes most of the
 distance from 3.5% (15.2 points, to 18.7%), and the further 2.9 points
 from fine-tuning on top of that (18.7% → 21.6%) is not something this
@@ -219,7 +219,7 @@ own `classify()`):
 | wrong row (a different number entirely) | 55.3% | 60.9% | 69.4% |
 | unparseable output | 2.8% | 2.3% | 0.2% |
 
-This is the more interesting result than the accuracy row alone. Both
+This says more than the accuracy row alone. Both
 few-shot and fine-tuning almost eliminate scaling errors and unparseable
 output, the model reliably learns "convert the scale, answer with one
 bare number" from either 3 in-context examples or from training. Neither
@@ -322,7 +322,7 @@ fine-tuned model's 69.4% to 49.8%, a real, if partial, improvement on
 the table-comprehension problem the 3B analysis above could only
 diagnose, not fix.
 
-One honest caveat this section's comparison carries and the headline
+One caveat this section's comparison carries and the headline
 table does not: `finetuned_7b_full` was trained and evaluated on the
 corrected table text (the formatting-bug fix above), while
 `finetuned_v3_full` and `fewshot_base_full` were computed on the old,
@@ -351,13 +351,13 @@ scale:
 
 | comparison | p-value | conclusion |
 |---|---|---|
-| 7B zero-shot vs 7B few-shot | 7.5 × 10⁻⁹ | few-shot genuinely, significantly better |
-| 7B zero-shot vs 7B fine-tuned | 2.0 × 10⁻¹⁸ | fine-tuned genuinely, significantly better |
+| 7B zero-shot vs 7B few-shot | 7.5 × 10⁻⁹ | few-shot significantly better |
+| 7B zero-shot vs 7B fine-tuned | 2.0 × 10⁻¹⁸ | fine-tuned significantly better |
 | **7B few-shot vs 7B fine-tuned** | **0.367** | **not significant, even more clearly than the 3B version of this comparison (p=0.145)** |
 
 At 7B, few-shot prompting alone (41.7%) gets within 1.6 points of what
 LoRA fine-tuning achieves (43.3%), and that gap is, if anything, LESS
-distinguishable from noise than the 3B gap was. The honest conclusion
+distinguishable from noise than the 3B gap was. The conclusion
 from both model sizes together: **the returns to actually training
 something, over just showing a bigger model 3 examples in the prompt,
 have not been established by this project at either scale tried**, what
@@ -365,7 +365,7 @@ clearly IS established, at both scales, is that either cheap-or-expensive
 method beats zero-shot by a lot, and that model size matters enormously
 regardless of which of the three methods it's paired with.
 
-That last point is worth stating plainly: **7B zero-shot (30.9%) beats
+One more point: **7B zero-shot (30.9%) beats
 3B fine-tuned (21.6%)**, significantly (p = 2.3 × 10⁻⁶ vs the 3B
 fine-tuned result), a model that received no task-specific training at
 all outperforms one that did, on nothing but scale. If the goal is the
@@ -430,7 +430,7 @@ The gap between raw and achievable accuracy is small for the weaker
 methods (they were failing for their own reasons well before running out
 of answerable examples to get right) and largest for the best methods, every 7B method gains 4.7-6.9 points, more than any 3B method, meaning a
 meaningfully larger share of the stronger models' remaining errors,
-specifically, are against genuinely unanswerable questions rather than
+specifically, are against unanswerable questions rather than
 model mistakes.
 `value_plausibly_present()`'s own limits are stated in its docstring: a
 heuristic substring check at common scales, not an exact match to

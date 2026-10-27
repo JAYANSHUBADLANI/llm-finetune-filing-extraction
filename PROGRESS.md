@@ -11,7 +11,7 @@ Reused filing-extraction-benchmark's ground truth (1,225 labeled cells,
 9 financial statement fields, 24 real companies' 10-Ks, dev and test
 split already defined) rather than building a new labeled set, read only,
 nothing in that project touched. Compacted the input from that project's
-"document" mode, up to 560,000 characters, the honest but LoRA
+"document" mode, up to 560,000 characters, the fair but LoRA
 impractical comparison basis its own 0.9321 figure was measured under, to
 only the tables its own parser already classified as a financial
 statement, typically a few thousand characters. That is a real, stated
@@ -29,7 +29,7 @@ dollar figure the ground truth is stated in, 76,559 instead of
 76,559,000,000. Fixed by tagging each table's block with its own scale
 phrase and instructing the model to convert before answering. That
 instruction is not reliably followed by a 3B model even after the fix,
-which the zero shot baseline result below states plainly rather than
+which the zero shot baseline result below reports directly rather than
 assuming the instruction fixed the problem because it was added.
 
 Environment problems, in the order hit, all specific to this machine,
@@ -175,7 +175,7 @@ question) instead of a single-turn one when set.
 
 Retried the full 653-example evaluation for the fine-tuned model, the
 thing left undone above. It completed cleanly this time, no stall,
-confirming the earlier diagnosis: the blocker was genuinely machine-wide
+confirming the earlier diagnosis: the blocker was machine-wide
 memory pressure from other applications, not anything about this
 project's own code or model. Also ran the new few-shot baseline on
 the same full 653 examples.
@@ -193,7 +193,7 @@ significance test existed for. Wrote `src/significance_test.py`,
 McNemar's exact test on the discordant pairs (examples where two methods
 disagree; agreements, right or wrong, carry no information about which
 method is better). Result: zero-shot vs few-shot and zero-shot vs
-fine-tuned are both p < 0.001, genuinely significant. Few-shot vs
+fine-tuned are both p < 0.001, significant. Few-shot vs
 fine-tuned is p = 0.145, not significant at any conventional threshold.
 This data does not support the claim that fine-tuning beat few-shot
 prompting here; it only supports the claim that both of them beat
@@ -231,7 +231,7 @@ zero-width space characters (2,873 occurrences) that `str(c).strip()`
 does not remove since U+200B isn't whitespace by Python's definition, so
 these were silently passing the old `if str(c).strip()` filter as if
 they were real cells. Both inflate a data row's cell count relative to
-its header row inconsistently row to row, which genuinely does misalign
+its header row inconsistently row to row, which does misalign
 which pipe-separated position corresponds to which reported year.
 Fixed in `data_prep._is_meaningful_cell()` (drop any cell with no letter
 or digit) and confirmed directly against a real filing that every data
@@ -257,7 +257,7 @@ in a way this particular misalignment would disrupt. Worth having
 checked rather than assumed either way.
 
 Hypothesis 2: the wrong_row failure (dominant at 55-69% for every 3B-
-scale method tried) is a genuine model-capacity ceiling, not an
+scale method tried) is a model-capacity ceiling, not an
 artifact of this project's small-model-oriented setup. Checked using
 qwen2.5:14b, already downloaded locally for sar-multiagent-drafting via
 Ollama, zero-shot only (Ollama serves GGUF, not the MLX format
@@ -353,7 +353,7 @@ scorer). McNemar's test against both 3B-scale results this could be
 meaningfully compared to: 3B fine-tuned vs 7B fine-tuned p = 2.6e-26, 3B
 few-shot vs 7B fine-tuned p = 1.3e-33, both overwhelmingly significant,
 unlike the earlier few-shot-vs-fine-tuned comparison at 3B scale, which
-was genuinely ambiguous (p=0.145). Error breakdown: scaling_error 1.2%
+was ambiguous (p=0.145). Error breakdown: scaling_error 1.2%
 (as low as the 3B fine-tuned model's), wrong_row 49.8%, still the
 largest failure category by far, but down from the 3B fine-tuned model's
 69.4% share, a real, partial improvement on the actual bottleneck this
@@ -421,7 +421,7 @@ already measured:
   7B fine-tuned:   raw 43.3% (283/653) -> achievable 50.2% (283/564)
 
 7B fine-tuned gains the most (6.9 points) of any method, the strongest
-model's remaining errors are disproportionately against genuinely
+model's remaining errors are disproportionately against
 unanswerable questions, not its own mistakes, more so than the weaker
 methods, which were still failing plenty on answerable questions too.
 50.2% on questions that were actually answerable is a materially
